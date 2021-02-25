@@ -1,5 +1,8 @@
 # Dirac/MI Sound Enhancer
 
+- Add this in device.mk:
+$(call inherit-product, vendor/xiaomi/dirac/dirac.mk)
+
 Add this to your audio_effects.xml
 
      <library name="dirac" path="libdirac.so"/>
