@@ -1,3 +1,6 @@
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/xiaomi/dirac
+
 VENDOR_PATH := vendor/xiaomi/dirac
 
 PRODUCT_COPY_FILES += \
