@@ -19,11 +19,3 @@ PRODUCT_PACKAGES += \
 
 # Props ($PATH_PROP)
 TARGET_PRODUCT_PROP += $(VENDOR_PATH)/dirac.prop
-
-# Props
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.audio.soundfx.dirac=true \
-    persist.audio.dirac.speaker=true \
-    persist.dirac.acs.controller=qem \
-    persist.dirac.acs.storeSettings=1 \
-    persist.dirac.acs.ignore_error=1
